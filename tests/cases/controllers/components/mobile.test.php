@@ -1,5 +1,6 @@
 <?php
-App::import('Component', 'MobileKit.Mobile');
+//App::import('Component', 'MobileKit.Mobile');
+App::import('Component', 'Mobile');
 
 class TestMobileComponent extends MobileComponent {
 }

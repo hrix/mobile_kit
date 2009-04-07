@@ -1,6 +1,8 @@
 <?php
-App::import('Component', 'MobileKit.Render');
-App::import('Component', 'MobileKit.Mobile');
+//App::import('Component', 'MobileKit.Render');
+//App::import('Component', 'MobileKit.Mobile');
+App::import('Component', 'Render');
+App::import('Component', 'Mobile');
 
 class TestRenderComponent extends RenderComponent {
 }
