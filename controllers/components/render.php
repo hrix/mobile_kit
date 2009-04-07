@@ -1,7 +1,9 @@
 <?php
-App::import('Vendor', 'MobileKit.simple_html_dom',
+//App::import('Vendor', 'MobileKit.simple_html_dom',
+//	array('file'=>'simplehtmldom/simple_html_dom.php'));
+App::import('Vendor', 'MobileKit',
 	array('file'=>'simplehtmldom/simple_html_dom.php'));
-
+	
 class RenderComponent extends Object {
 	var $components = array('MobileKit.Mobile');
 	var $layoutPath = 'mobile';
